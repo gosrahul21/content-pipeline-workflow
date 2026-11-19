@@ -1,0 +1,1735 @@
+[
+  {
+    "id": "b2dab51c-64dd-4264-b9d3-1eb0628c64a5",
+    "content": "🚀 Just tested our automated LinkedIn Content Engine pipeline! #AI #Automation",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "test": true
+    },
+    "createdAt": "2026-11-19T07:34:06.791Z",
+    "updatedAt": "2026-11-19T07:34:06.793Z",
+    "linkedinPostUrn": "urn:li:share:338027982",
+    "publishedAt": "2026-11-19T07:34:06.793Z"
+  },
+  {
+    "id": "1d48ffd3-ef10-4c31-887f-115bc76ceb40",
+    "content": "Post #1: High value tech insight about microservices and event queues.",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T03:54:55.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:34:06.793Z",
+    "updatedAt": "2026-11-19T07:38:33.739Z",
+    "linkedinPostUrn": "urn:li:share:310197168",
+    "publishedAt": "2026-11-19T07:38:33.739Z"
+  },
+  {
+    "id": "1274e335-e5ca-4d28-9f68-f750714f4164",
+    "content": "Post #2: The difference between SQS FIFO and Standard Queues explained.",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T07:02:40.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:34:06.793Z",
+    "updatedAt": "2026-11-19T07:38:33.739Z",
+    "linkedinPostUrn": "urn:li:share:394889447",
+    "publishedAt": "2026-11-19T07:38:33.739Z"
+  },
+  {
+    "id": "c7d90e02-259f-494b-941c-a4691dc739c2",
+    "content": "Post #3: How we reduced pipeline latency with smart caching.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T12:09:54.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:34:06.794Z",
+    "updatedAt": "2026-11-19T07:34:06.794Z"
+  },
+  {
+    "id": "ffd6388b-4bf7-42f5-9424-247cef7ab187",
+    "content": "Post #4: Why randomizing scheduled intervals prevents bot detection.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T15:13:51.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:34:06.794Z",
+    "updatedAt": "2026-11-19T07:34:06.794Z"
+  },
+  {
+    "id": "470de6e3-562e-452d-9ae5-1647e03b063b",
+    "content": "🧪 Lambda EventBridge Scheduler test post! #Serverless #AWSLambda",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:38:33.736Z",
+    "updatedAt": "2026-11-19T07:38:33.738Z",
+    "linkedinPostUrn": "urn:li:share:670796940",
+    "publishedAt": "2026-11-19T07:38:33.738Z"
+  },
+  {
+    "id": "d0370433-f335-4746-b75d-6735b82923f5",
+    "content": "🚀 Just tested our automated LinkedIn Content Engine pipeline! #AI #Automation",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "test": true
+    },
+    "createdAt": "2026-11-19T07:41:16.906Z",
+    "updatedAt": "2026-11-19T07:41:16.908Z",
+    "linkedinPostUrn": "urn:li:share:102431853",
+    "publishedAt": "2026-11-19T07:41:16.908Z"
+  },
+  {
+    "id": "29af174c-8cec-49c2-a287-9f392cfb0fe5",
+    "content": "Post #1: High value tech insight about microservices and event queues.",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T04:00:47.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:41:16.908Z",
+    "updatedAt": "2026-11-19T07:41:23.737Z",
+    "linkedinPostUrn": "urn:li:share:445352448",
+    "publishedAt": "2026-11-19T07:41:23.737Z"
+  },
+  {
+    "id": "f5d36a6a-9d18-4c9f-a5a6-027ab01d39d6",
+    "content": "Post #2: The difference between SQS FIFO and Standard Queues explained.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T08:33:25.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:41:16.909Z",
+    "updatedAt": "2026-11-19T07:41:16.909Z"
+  },
+  {
+    "id": "383c6e71-d7ca-4208-b446-113373e95e09",
+    "content": "Post #3: How we reduced pipeline latency with smart caching.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T11:32:29.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:41:16.909Z",
+    "updatedAt": "2026-11-19T07:41:16.909Z"
+  },
+  {
+    "id": "9340e023-7b1d-405b-8d46-aec0ff4730b8",
+    "content": "Post #4: Why randomizing scheduled intervals prevents bot detection.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T13:12:27.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:41:16.909Z",
+    "updatedAt": "2026-11-19T07:41:16.909Z"
+  },
+  {
+    "id": "ed91b99f-8ebe-47a5-81ac-5874b1d428b9",
+    "content": "🧪 Lambda EventBridge Scheduler test post! #Serverless #AWSLambda",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:41:23.732Z",
+    "updatedAt": "2026-11-19T07:41:23.736Z",
+    "linkedinPostUrn": "urn:li:share:269278887",
+    "publishedAt": "2026-11-19T07:41:23.736Z"
+  },
+  {
+    "id": "7902a35e-0d2c-4fd5-ab4f-133e5e008c95",
+    "content": "🚀 Just tested our automated LinkedIn Content Engine pipeline! #AI #Automation",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "test": true
+    },
+    "createdAt": "2026-11-19T07:43:01.037Z",
+    "updatedAt": "2026-11-19T07:43:01.039Z",
+    "linkedinPostUrn": "urn:li:share:725580480",
+    "publishedAt": "2026-11-19T07:43:01.039Z"
+  },
+  {
+    "id": "059173e1-f6ad-4f38-8455-ed3ac92d251e",
+    "content": "Post #1: High value tech insight about microservices and event queues.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T04:21:27.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:43:01.040Z",
+    "updatedAt": "2026-11-19T07:43:01.040Z"
+  },
+  {
+    "id": "90b30b6b-1e90-4a16-9adc-a047b10c138b",
+    "content": "Post #2: The difference between SQS FIFO and Standard Queues explained.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T07:48:35.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:43:01.040Z",
+    "updatedAt": "2026-11-19T07:43:01.040Z"
+  },
+  {
+    "id": "b9c1d132-0486-427e-94aa-e51e166c9309",
+    "content": "Post #3: How we reduced pipeline latency with smart caching.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T12:25:36.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:43:01.040Z",
+    "updatedAt": "2026-11-19T07:43:01.041Z"
+  },
+  {
+    "id": "e3871989-5013-47ad-95a9-30c3146c200e",
+    "content": "Post #4: Why randomizing scheduled intervals prevents bot detection.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T13:02:30.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:43:01.040Z",
+    "updatedAt": "2026-11-19T07:43:01.041Z"
+  },
+  {
+    "id": "bf1af29c-7361-46f0-b494-f0ab3d8d0439",
+    "content": "🚀 Testing LinkedIn post via Universal Lambda Handler #AWS #Serverless",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:48:32.173Z",
+    "updatedAt": "2026-11-19T07:48:32.177Z",
+    "linkedinPostUrn": "urn:li:share:112609199",
+    "publishedAt": "2026-11-19T07:48:32.177Z"
+  },
+  {
+    "id": "641f0fe0-be47-4efa-afe0-9b3c0b445a72",
+    "content": "🚀 Testing LinkedIn post with image extracted and saved in S3! #SystemDesign",
+    "media": [
+      {
+        "type": "IMAGE",
+        "s3Key": "media/tweets/189283749/architecture.png",
+        "altText": "Content Engine S3 Pipeline Architecture"
+      }
+    ],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "test": true
+    },
+    "createdAt": "2026-11-19T07:56:27.042Z",
+    "updatedAt": "2026-11-19T07:56:27.052Z",
+    "linkedinPostUrn": "urn:li:share:749637325",
+    "publishedAt": "2026-11-19T07:56:27.052Z"
+  },
+  {
+    "id": "e7cfa284-8779-40dd-a84e-9a499bde4631",
+    "content": "Post #1 with S3 Media asset.",
+    "media": [
+      {
+        "type": "IMAGE",
+        "s3Key": "media/posts/chart-1.png"
+      }
+    ],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T08:44:26.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:56:27.053Z",
+    "updatedAt": "2026-11-19T07:56:27.054Z"
+  },
+  {
+    "id": "5acf4c10-43d3-4e9b-97b8-eb7785f788fd",
+    "content": "Post #2 text only.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T10:03:33.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T07:56:27.053Z",
+    "updatedAt": "2026-11-19T07:56:27.055Z"
+  },
+  {
+    "id": "5002c0ac-4c46-4461-84b4-b99fab5d43a0",
+    "content": "🎬 Watch this 60-second walkthrough of our real-time streaming pipeline! #Tech #VideoDemo",
+    "media": [
+      {
+        "type": "VIDEO",
+        "title": "Real-Time Pipeline Architecture Walkthrough",
+        "s3Key": "videos/tweets/1928374/demo.mp4",
+        "altText": "Video demonstrating pipeline speed and low latency"
+      }
+    ],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "isVideo": true
+    },
+    "createdAt": "2026-11-19T08:03:23.642Z",
+    "updatedAt": "2026-11-19T08:03:23.644Z",
+    "linkedinPostUrn": "urn:li:share:482233703",
+    "publishedAt": "2026-11-19T08:03:23.644Z"
+  },
+  {
+    "id": "3d323dc6-2078-4306-8336-416707089c61",
+    "content": "Breakdown of our caching architecture with diagram.",
+    "media": [
+      {
+        "type": "IMAGE",
+        "s3Key": "images/architecture-diagram.png"
+      }
+    ],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T08:44:12.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:03:23.645Z",
+    "updatedAt": "2026-11-19T08:03:23.645Z"
+  },
+  {
+    "id": "a310349d-cd8a-4e47-bd7b-2b0be66b6b6b",
+    "content": "Original video demo showing our sub-100ms response time.",
+    "media": [
+      {
+        "type": "VIDEO",
+        "title": "Sub-100ms Response Time Live Benchmark",
+        "s3Key": "videos/benchmark.mp4"
+      }
+    ],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T10:51:25.000Z",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:03:23.645Z",
+    "updatedAt": "2026-11-19T08:03:23.645Z"
+  },
+  {
+    "id": "7f215928-f3ae-45cf-9ebe-68d65c8229c3",
+    "content": "🚀 Testing our automated Content Engine integration! Excited to share more updates soon.\n\n#BuildingInPublic #Engineering #Automation",
+    "media": [],
+    "status": "FAILED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:10:33.836Z",
+    "updatedAt": "2026-11-19T08:10:34.722Z",
+    "error": "{\"status\":426,\"code\":\"NONEXISTENT_VERSION\",\"message\":\"Requested version 20240101 is not active\"}"
+  },
+  {
+    "id": "284ea620-e653-46d8-821b-767cdf243d97",
+    "content": "🚀 Testing our automated Content Engine integration! Excited to share more updates soon.\n\n#BuildingInPublic #Engineering #Automation",
+    "media": [],
+    "status": "FAILED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:11:15.408Z",
+    "updatedAt": "2026-11-19T08:11:16.701Z",
+    "error": "{\"status\":426,\"code\":\"NONEXISTENT_VERSION\",\"message\":\"Requested version 20241101 is not active\"}"
+  },
+  {
+    "id": "1143c2dc-e64c-431b-be6b-fffcb7dc2fc0",
+    "content": "🚀 Testing our automated Content Engine integration! Excited to share more updates soon.\n\n#BuildingInPublic #Engineering #Automation",
+    "media": [],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:12:04.226Z",
+    "updatedAt": "2026-11-19T08:12:05.682Z",
+    "linkedinPostUrn": "urn:li:share:7529094132875616256",
+    "publishedAt": "2026-11-19T08:12:05.682Z"
+  },
+  {
+    "id": "cce26e91-d086-4f6b-8625-d6d52366a308",
+    "content": "☁️ Live Test: Image streamed directly from private AWS S3 to LinkedIn!\n\nExtracted media successfully cached and uploaded via our Content Engine backend.\n\n#AWS #CloudArchitecture #LinkedInAPI #Automation",
+    "media": [
+      {
+        "type": "IMAGE",
+        "s3Key": "media/test/cloud-server-1795076808701.jpg",
+        "altText": "Cloud datacenter architecture"
+      }
+    ],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:26:50.096Z",
+    "updatedAt": "2026-11-19T08:26:53.866Z",
+    "linkedinPostUrn": "urn:li:share:7529097858277515265",
+    "publishedAt": "2026-11-19T08:26:53.866Z"
+  },
+  {
+    "id": "94687bdb-fa70-45d2-8ce6-54e41d5e04ac",
+    "content": "🎬 Live Video Test: Video streamed directly from AWS S3 to LinkedIn!\n\nDemonstrating our automated Content Engine media pipeline with full video processing.\n\n#AWS #LinkedInVideo #ContentEngine #Automation",
+    "media": [
+      {
+        "type": "VIDEO",
+        "title": "Content Engine Video Demo",
+        "s3Key": "media/test/sample-video-1795077000783.mp4",
+        "altText": "Video demonstration of content engine pipeline"
+      }
+    ],
+    "status": "FAILED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:30:05.472Z",
+    "updatedAt": "2026-11-19T08:30:23.708Z",
+    "error": "Request failed with status code 413"
+  },
+  {
+    "id": "ec38438a-b331-4cbb-9fae-591df6f1afd8",
+    "content": "🎬 Live Video Test: Video streamed directly from AWS S3 to LinkedIn!\n\nDemonstrating our automated Content Engine media pipeline with full video processing.\n\n#AWS #LinkedInVideo #ContentEngine #Automation",
+    "media": [
+      {
+        "type": "VIDEO",
+        "title": "Content Engine Video Demo",
+        "s3Key": "media/test/sample-video-1795077062554.mp4",
+        "altText": "Video demonstration of content engine pipeline"
+      }
+    ],
+    "status": "FAILED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:31:13.259Z",
+    "updatedAt": "2026-11-19T08:31:36.156Z",
+    "error": "{\"message\":\"com.linkedin.content.common.exception.BadRequestResponseException: field override not supported for category\",\"status\":400}"
+  },
+  {
+    "id": "8dcbccdb-26ef-470e-91f6-4a4b9a656f54",
+    "content": "🎬 Live Video Test: Video streamed directly from AWS S3 to LinkedIn!\n\nDemonstrating our automated Content Engine media pipeline with full video processing.\n\n#AWS #LinkedInVideo #ContentEngine #Automation",
+    "media": [
+      {
+        "type": "VIDEO",
+        "title": "Content Engine Video Demo",
+        "s3Key": "media/test/sample-video-1795077125878.mp4",
+        "altText": "Video demonstration of content engine pipeline"
+      }
+    ],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {},
+    "createdAt": "2026-11-19T08:32:12.671Z",
+    "updatedAt": "2026-11-19T08:33:04.037Z",
+    "linkedinPostUrn": "urn:li:ugcPost:7529099410228826112",
+    "publishedAt": "2026-11-19T08:33:04.033Z"
+  },
+  {
+    "id": "2c10acc1-dc4c-4cfe-ac97-b2e6d15a0891",
+    "sourceTweetId": "1858000000000000001",
+    "originalText": "Everyone seems to have forgotten that code is a liability, not an asset. That means producing thousands of lines you did not read is a liability.",
+    "content": "We're often taught that code is an asset. I'd argue it's closer to a liability.\n\nEvery line of code introduces a commitment: to maintain it, secure it, understand it, and potentially debug it for its entire lifecycle. This isn't just a one-time cost; it's an ongoing, compounding expense that often goes unacknowledged.\n\nThink of software not just as something you build, but something you *own* and *operate*. Like a complex industrial machine, the true burden isn't just its initial construction, but the relentless upkeep, repairs, and the deep expertise required to keep it running efficiently. Unnecessary or poorly understood code is exactly that – a system you don't fully grasp, waiting to introduce friction or break down.\n\nWhen we generate or inherit thousands of lines of code we haven't thoroughly read or critically understood, we're not just building features. We're accumulating 'dark debt' – hidden liabilities that will inevitably surface as:\n*   Increased maintenance overhead and debugging complexity.\n*   Slower feature development velocity due to cognitive load.\n*   Higher risk of security vulnerabilities and compliance issues.\n*   Steeper learning curves and slower onboarding for new team members.\n\nOur focus must shift from simply shipping *more* code to shipping *less*, *better-understood* code. Prioritize deletion, simplification, and fostering a culture where every line is critically reviewed and its long-term cost considered.\n\nWhat practices do you find most effective in mitigating the inherent liabilities of a growing codebase?",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "Software Engineering",
+      "qualityScore": 8,
+      "viralityPotential": "HIGH",
+      "isDuplicate": true,
+      "existingLinkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529094132875616256",
+      "interventionReason": "Duplicate post detected: https://www.linkedin.com/feed/update/urn:li:activity:7529094132875616256",
+      "keyThemes": [
+        "Software Engineering",
+        "Technical Debt",
+        "Code Quality",
+        "Development Practices"
+      ],
+      "aiImprovised": true,
+      "hook": "We're often taught that code is an asset. I'd argue it's closer to a liability.",
+      "takeaways": [
+        "Every line of code is an ongoing commitment to maintenance, security, and understanding, creating a compounding expense.",
+        "Unnecessary or poorly understood code acts like a 'dark debt,' introducing hidden costs and risks.",
+        "These liabilities manifest as increased maintenance, slower development, security risks, and steeper learning curves.",
+        "The focus should shift from writing more code to writing less, better-understood code.",
+        "Prioritize deletion, simplification, and critical review to manage the long-term costs of a codebase."
+      ],
+      "suggestedHashtags": [
+        "#SoftwareEngineering",
+        "#TechnicalDebt",
+        "#CodeQuality",
+        "#TechLeadership"
+      ]
+    },
+    "createdAt": "2026-11-19T10:18:00.476Z",
+    "updatedAt": "2026-11-19T10:18:18.295Z",
+    "scheduledAt": "2026-11-19T09:20:50.000Z"
+  },
+  {
+    "id": "93c09364-54a5-460a-b46a-29c01003d284",
+    "sourceTweetId": "1858000000000000002",
+    "originalText": "Distributed systems tip: The best architecture is the one that minimizes distributed state. When you reduce shared coordination, you reduce failure modes, latency, and operational burden.",
+    "content": "Distributed systems tip: The best architecture is the one that minimizes distributed state. When you reduce shared coordination, you reduce failure modes, latency, and operational burden.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T13:01:19.000Z",
+    "metadata": {
+      "category": "Software Engineering",
+      "qualityScore": 8,
+      "viralityPotential": "HIGH",
+      "keyThemes": [
+        "Distributed Systems",
+        "System Architecture",
+        "Software Design",
+        "Reliability"
+      ],
+      "autoScheduled": true
+    },
+    "createdAt": "2026-11-19T10:18:23.755Z",
+    "updatedAt": "2026-11-19T10:18:23.755Z"
+  },
+  {
+    "id": "3c8de38c-438e-4208-aea0-aec3de671d70",
+    "sourceTweetId": "1858000000000000003",
+    "originalText": "The most productive developers do not write the most code; they delete the most code.",
+    "content": "The most productive developers do not write the most code; they delete the most code.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "scheduledAt": "2026-11-19T07:25:41.000Z",
+    "metadata": {
+      "category": "Software Engineering",
+      "qualityScore": 9,
+      "viralityPotential": "HIGH",
+      "keyThemes": [
+        "Software Development",
+        "Productivity",
+        "Code Quality",
+        "Efficiency"
+      ],
+      "autoScheduled": true
+    },
+    "createdAt": "2026-11-19T10:18:28.021Z",
+    "updatedAt": "2026-11-19T10:18:28.022Z"
+  },
+  {
+    "id": "832de81e-91a8-47e3-b601-fbdf76a41603",
+    "sourceTweetId": "101",
+    "originalText": "LLM inference caching: How to use semantic KV cache to reduce token latency by 70% in production systems.",
+    "content": "LLM inference caching: How to use semantic KV cache to reduce token latency by 70% in production systems.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "AI",
+      "postType": "KNOWLEDGE_VALUE",
+      "category": "LLM Performance Optimization",
+      "qualityScore": 9,
+      "compositeScore": 90,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@ai_engineer"
+    },
+    "createdAt": "2026-11-19T12:59:49.535Z",
+    "updatedAt": "2026-11-19T12:59:49.550Z"
+  },
+  {
+    "id": "eb88a63f-4400-48af-935f-428e5f310899",
+    "sourceTweetId": "102",
+    "originalText": "Good engineering is not about producing more code. It is about solving problems with the least amount of code. Every line is a liability.",
+    "content": "Good engineering is not about producing more code. It is about solving problems with the least amount of code. Every line is a liability.",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "SOFTWARE_ENGINEERING",
+      "postType": "KNOWLEDGE_VALUE",
+      "category": "Engineering Principles",
+      "qualityScore": 8,
+      "compositeScore": 85,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@tech_lead"
+    },
+    "createdAt": "2026-11-19T12:59:53.732Z",
+    "updatedAt": "2026-11-19T13:08:07.321Z",
+    "linkedinPostUrn": "urn:li:share:7529166618652909568",
+    "publishedAt": "2026-11-19T13:00:07.739Z",
+    "scheduledAt": "2026-11-19T03:34:54.000Z"
+  },
+  {
+    "id": "5287ba8e-45a2-440f-9793-69d41a0d6148",
+    "sourceTweetId": "103",
+    "originalText": "Just crossed $50k MRR with my micro-SaaS! Stripe dashboard screenshot attached. Unbelievable growth this quarter.",
+    "content": "Just crossed $50k MRR with my micro-SaaS! Stripe dashboard screenshot attached. Unbelievable growth this quarter.\n\nJust crossed $50k MRR with my micro-SaaS! Stripe dashboard screenshot attached. Unbelievable growth this quarter.\n\nKey takeaways:\n• Simplicity > Complexity\n• Business value > Code quantity\n\nWhat is your take on this?",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "OTHER",
+      "postType": "FLEXING_MRR",
+      "category": "SaaS Business Achievement",
+      "qualityScore": 4,
+      "compositeScore": 0,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@indie_hacker",
+      "aiImprovised": true,
+      "hook": "Just crossed $50k MRR with my micro-SaaS! Stripe dashboard screenshot attached. Unbelievable growth this quarter.",
+      "takeaways": [
+        "Focus on business value",
+        "Keep code footprint minimal"
+      ],
+      "suggestedHashtags": [
+        "#SoftwareEngineering",
+        "#TechLeadership",
+        "#Programming"
+      ]
+    },
+    "createdAt": "2026-11-19T13:00:01.560Z",
+    "updatedAt": "2026-11-19T13:00:08.062Z",
+    "scheduledAt": "2026-11-19T15:19:55.000Z"
+  },
+  {
+    "id": "ecbccabe-2f28-4a96-a45f-22f381e12c0b",
+    "sourceTweetId": "104",
+    "originalText": "Woke up at 5am, ran 8km, ate avocado toast with eggs. Sundays are for resetting your mind!",
+    "content": "Woke up at 5am, ran 8km, ate avocado toast with eggs. Sundays are for resetting your mind!",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "OTHER",
+      "postType": "PERSONAL_LIFE",
+      "category": "Software Engineering",
+      "qualityScore": 6,
+      "compositeScore": 75,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@lifestyle_guru"
+    },
+    "createdAt": "2026-11-19T13:00:01.915Z",
+    "updatedAt": "2026-11-19T13:00:01.915Z"
+  },
+  {
+    "id": "70f63536-b9af-48a8-9c9a-7557f8778c93",
+    "sourceTweetId": "105",
+    "originalText": "Bitcoin just broke resistance again! Buy the dip or miss the next crypto supercycle.",
+    "content": "Bitcoin just broke resistance again! Buy the dip or miss the next crypto supercycle.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "OTHER",
+      "postType": "OTHER",
+      "category": "Crypto/Trading",
+      "qualityScore": 1,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@crypto_trader"
+    },
+    "createdAt": "2026-11-19T13:00:06.514Z",
+    "updatedAt": "2026-11-19T13:00:06.514Z"
+  },
+  {
+    "id": "f0382487-4f6d-44c4-877e-de14f12d99bb",
+    "sourceTweetId": "101",
+    "originalText": "LLM inference caching: How to use semantic KV cache to reduce token latency by 70% in production systems.",
+    "content": "LLM inference caching: How to use semantic KV cache to reduce token latency by 70% in production systems.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "AI",
+      "postType": "KNOWLEDGE_VALUE",
+      "category": "Artificial Intelligence",
+      "qualityScore": 8,
+      "compositeScore": 75,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@ai_engineer"
+    },
+    "createdAt": "2026-11-19T17:05:06.136Z",
+    "updatedAt": "2026-11-19T17:05:06.138Z"
+  },
+  {
+    "id": "72f866e8-62d2-4637-a6a2-01f40de4a047",
+    "sourceTweetId": "102",
+    "originalText": "Good engineering is not about producing more code. It is about solving problems with the least amount of code. Every line is a liability.",
+    "content": "Good engineering is not about producing more code. It is about solving problems with the least amount of code. Every line is a liability.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "SOFTWARE_ENGINEERING",
+      "postType": "KNOWLEDGE_VALUE",
+      "category": "Software Engineering",
+      "qualityScore": 8,
+      "compositeScore": 75,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@tech_lead"
+    },
+    "createdAt": "2026-11-19T17:05:06.448Z",
+    "updatedAt": "2026-11-19T17:05:06.448Z"
+  },
+  {
+    "id": "8981ee76-9f6a-4350-a6e6-c8d2374d505f",
+    "sourceTweetId": "103",
+    "originalText": "Just crossed $50k MRR with my micro-SaaS! Stripe dashboard screenshot attached. Unbelievable growth this quarter.",
+    "content": "Just crossed $50k MRR with my micro-SaaS! Stripe dashboard screenshot attached. Unbelievable growth this quarter.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "OTHER",
+      "postType": "FLEXING_MRR",
+      "category": "Software Engineering",
+      "qualityScore": 6,
+      "compositeScore": 75,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@indie_hacker"
+    },
+    "createdAt": "2026-11-19T17:05:06.783Z",
+    "updatedAt": "2026-11-19T17:05:06.783Z"
+  },
+  {
+    "id": "4414e253-4b31-4b7e-bd19-5c68d7af6204",
+    "sourceTweetId": "104",
+    "originalText": "Woke up at 5am, ran 8km, ate avocado toast with eggs. Sundays are for resetting your mind!",
+    "content": "Woke up at 5am, ran 8km, ate avocado toast with eggs. Sundays are for resetting your mind!",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "OTHER",
+      "postType": "PERSONAL_LIFE",
+      "category": "Software Engineering",
+      "qualityScore": 6,
+      "compositeScore": 75,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@lifestyle_guru"
+    },
+    "createdAt": "2026-11-19T17:05:07.133Z",
+    "updatedAt": "2026-11-19T17:05:07.133Z"
+  },
+  {
+    "id": "e1b2ec3f-1eda-435f-99e0-76bc22f2f96b",
+    "sourceTweetId": "105",
+    "originalText": "Bitcoin just broke resistance again! Buy the dip or miss the next crypto supercycle.",
+    "content": "Bitcoin just broke resistance again! Buy the dip or miss the next crypto supercycle.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "domain": "AI",
+      "postType": "KNOWLEDGE_VALUE",
+      "category": "Artificial Intelligence",
+      "qualityScore": 8,
+      "compositeScore": 75,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@crypto_trader"
+    },
+    "createdAt": "2026-11-19T17:05:07.545Z",
+    "updatedAt": "2026-11-19T17:05:07.545Z"
+  },
+  {
+    "id": "2d570026-3b93-476a-b5af-4919306f6f76",
+    "sourceTweetId": "2123122026932007233",
+    "originalText": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+    "content": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.\n\nA huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.\n\nKey takeaways:\n• Simplicity > Complexity\n• Business value > Code quantity\n\nWhat is your take on this?",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "KEEP",
+      "scores": {
+        "value": 9,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8.3,
+      "coreIdea": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in unde",
+      "domain": "OTHER",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 8,
+      "compositeScore": 70,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@paulg",
+      "aiImprovised": true,
+      "hook": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+      "takeaways": [
+        "Focus on business value",
+        "Keep code footprint minimal"
+      ],
+      "suggestedHashtags": [
+        "#SoftwareEngineering",
+        "#TechLeadership",
+        "#Programming"
+      ]
+    },
+    "createdAt": "2026-11-19T17:08:22.552Z",
+    "updatedAt": "2026-11-19T17:08:26.969Z",
+    "linkedinPostUrn": "urn:li:share:7529229107684089856",
+    "publishedAt": "2026-11-19T17:08:26.141Z",
+    "scheduledAt": "2026-11-19T06:47:23.000Z"
+  },
+  {
+    "id": "9fc57b74-f5ff-44f4-9d49-0aac3a3ed076",
+    "sourceTweetId": "2123299792923042078",
+    "originalText": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "content": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "FLEXING_MRR",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 3,
+        "originality": 2,
+        "adaptability": 3
+      },
+      "averageScore": 0,
+      "coreIdea": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200",
+      "domain": "BUSINESS",
+      "postType": "FLEXING_MRR",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@Miracle_NNnn"
+    },
+    "createdAt": "2026-11-19T17:08:22.556Z",
+    "updatedAt": "2026-11-19T17:08:22.556Z"
+  },
+  {
+    "id": "ea79dbb9-8e2f-4981-8336-b67f368039d5",
+    "sourceTweetId": "2123438391090147775",
+    "originalText": "Work backwards from science fiction. We can build anything now",
+    "content": "Work backwards from science fiction. We can build anything now",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VISION_MOTIVATION",
+      "decision": "KEEP",
+      "scores": {
+        "value": 8,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8,
+      "coreIdea": "Work backwards from science fiction. We can build anything now",
+      "domain": "OTHER",
+      "postType": "VISION_MOTIVATION",
+      "qualityScore": 8,
+      "compositeScore": 63,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@rauchg"
+    },
+    "createdAt": "2026-11-19T17:08:22.557Z",
+    "updatedAt": "2026-11-19T17:08:22.557Z"
+  },
+  {
+    "id": "a1f494d8-7f9a-47eb-8682-ea17645e68e6",
+    "sourceTweetId": "2123099714186850431",
+    "originalText": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "content": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VIDEO_CLIP",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 3,
+        "originality": 2,
+        "adaptability": 2
+      },
+      "averageScore": 0,
+      "coreIdea": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+      "domain": "OTHER",
+      "postType": "VIDEO_CLIP",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@andywalkerhq"
+    },
+    "createdAt": "2026-11-19T17:08:22.558Z",
+    "updatedAt": "2026-11-19T17:08:22.558Z"
+  },
+  {
+    "id": "7193b2dc-0a3d-47ef-860b-f1dcf4345700",
+    "sourceTweetId": "2123450524796399816",
+    "originalText": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "content": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "HUMOR_MEME",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 1,
+        "originality": 1,
+        "adaptability": 1
+      },
+      "averageScore": 0,
+      "coreIdea": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can stil",
+      "domain": "OTHER",
+      "postType": "HUMOR_MEME",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@aproko_units"
+    },
+    "createdAt": "2026-11-19T17:08:22.559Z",
+    "updatedAt": "2026-11-19T17:08:22.559Z"
+  },
+  {
+    "id": "444ef09a-195c-4b3a-9374-9a562150c49e",
+    "sourceTweetId": "ad-explee-01",
+    "originalText": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "content": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link.",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@vovudebosh"
+    },
+    "createdAt": "2026-11-19T17:08:22.560Z",
+    "updatedAt": "2026-11-19T17:08:22.560Z"
+  },
+  {
+    "id": "f93fadc1-b671-49b1-9151-02df528d87cd",
+    "sourceTweetId": "ad-explee-02",
+    "originalText": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "content": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "The tweet promotes an AI sales tool by offering free credits and highlighting its features.",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "LOW",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@lhoffmann_dev"
+    },
+    "createdAt": "2026-11-19T17:08:22.561Z",
+    "updatedAt": "2026-11-19T17:08:22.561Z"
+  },
+  {
+    "id": "cd495aac-8b38-4cc8-8215-618c8e1cbb3e",
+    "sourceTweetId": "2123122026932007233",
+    "originalText": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+    "content": "My biggest professional leaps weren't found following the crowd. They were found actively avoiding it.\n\nPaul Graham once observed that a huge percentage of his life is spent avoiding crowds – be it fashionable ideas, overpriced assets, or tourist traps. He felt \"something is wrong\" whenever he found himself in one. This resonates deeply.\n\nIn tech, the \"crowd\" often manifests as:\n*   **Hype Cycles:** Chasing the latest framework or trend without critical evaluation.\n*   **Consensus Thinking:** Adopting solutions or strategies simply because they're popular, not because they're optimal.\n*   **Saturated Markets:** Competing for attention in areas already deluged with solutions.\n\nTrue innovation and sustainable advantage often emerge from contrarian thinking. It's about:\n*   Identifying undervalued skills or technologies.\n*   Solving overlooked problems that don't have obvious, popular solutions.\n*   Challenging assumptions and conventional wisdom, even when it's uncomfortable.\n\nThis isn't about being contrarian for its own sake, but about seeking clarity, depth, and genuine impact over superficial popularity. It's a strategic approach to finding leverage in a noisy world.\n\nIn your experience, when has avoiding the 'crowd' led to your most significant professional breakthroughs or insights?\n\n#StrategicThinking #Innovation #TechLeadership #Contrarianism",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "KEEP",
+      "scores": {
+        "value": 9,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8.3,
+      "coreIdea": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in unde",
+      "domain": "OTHER",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 8,
+      "compositeScore": 70,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@paulg",
+      "aiImprovised": true,
+      "hook": "My biggest professional leaps weren't found following the crowd. They were found actively avoiding it.",
+      "takeaways": [
+        "Strategic contrarianism drives innovation and competitive advantage in tech.",
+        "Avoid blindly following hype cycles and consensus thinking in favor of critical evaluation.",
+        "Focus on identifying undervalued skills, overlooked problems, and challenging conventional wisdom.",
+        "Genuine impact and sustainable growth often stem from independent thought, not popular trends."
+      ],
+      "suggestedHashtags": [
+        "StrategicThinking",
+        "Innovation",
+        "TechLeadership",
+        "Contrarianism"
+      ]
+    },
+    "createdAt": "2026-11-19T17:08:43.749Z",
+    "updatedAt": "2026-11-19T17:08:58.969Z",
+    "error": "{\"message\":\"com.linkedin.content.common.exception.BadRequestResponseException: Content is a duplicate of urn:li:share:7529229193663111168\",\"status\":422}",
+    "scheduledAt": "2026-11-19T08:24:58.000Z"
+  },
+  {
+    "id": "9fefeb84-e9b5-4fd7-88d1-47e818fe5730",
+    "sourceTweetId": "2123299792923042078",
+    "originalText": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "content": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "KEEP",
+      "scores": {
+        "value": 9,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8.3,
+      "coreIdea": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200",
+      "domain": "BUSINESS",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 8,
+      "compositeScore": 70,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@Miracle_NNnn"
+    },
+    "createdAt": "2026-11-19T17:08:43.753Z",
+    "updatedAt": "2026-11-19T17:08:43.753Z"
+  },
+  {
+    "id": "2a21adfc-b8f4-4de1-8a13-5314aab0516f",
+    "sourceTweetId": "2123438391090147775",
+    "originalText": "Work backwards from science fiction. We can build anything now",
+    "content": "Work backwards from science fiction. We can build anything now",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VISION_MOTIVATION",
+      "decision": "KEEP",
+      "scores": {
+        "value": 8,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8,
+      "coreIdea": "Work backwards from science fiction. We can build anything now",
+      "domain": "OTHER",
+      "postType": "VISION_MOTIVATION",
+      "qualityScore": 8,
+      "compositeScore": 63,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@rauchg"
+    },
+    "createdAt": "2026-11-19T17:08:43.755Z",
+    "updatedAt": "2026-11-19T17:08:43.755Z"
+  },
+  {
+    "id": "bd4d7fd0-98e8-4885-b183-dd93abafee9f",
+    "sourceTweetId": "2123099714186850431",
+    "originalText": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "content": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "KNOWLEDGE_VALUE",
+      "decision": "KEEP",
+      "scores": {
+        "value": 7,
+        "originality": 7,
+        "adaptability": 7
+      },
+      "averageScore": 7,
+      "coreIdea": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+      "domain": "OTHER",
+      "postType": "KNOWLEDGE_VALUE",
+      "qualityScore": 7,
+      "compositeScore": 67,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@andywalkerhq"
+    },
+    "createdAt": "2026-11-19T17:08:43.756Z",
+    "updatedAt": "2026-11-19T17:08:43.756Z"
+  },
+  {
+    "id": "0f434d7d-7ba9-4e3c-8198-7bf7bb272b47",
+    "sourceTweetId": "2123450524796399816",
+    "originalText": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "content": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "KNOWLEDGE_VALUE",
+      "decision": "KEEP",
+      "scores": {
+        "value": 7,
+        "originality": 7,
+        "adaptability": 7
+      },
+      "averageScore": 7,
+      "coreIdea": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can stil",
+      "domain": "OTHER",
+      "postType": "KNOWLEDGE_VALUE",
+      "qualityScore": 7,
+      "compositeScore": 67,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@aproko_units"
+    },
+    "createdAt": "2026-11-19T17:08:43.757Z",
+    "updatedAt": "2026-11-19T17:08:43.757Z"
+  },
+  {
+    "id": "0d243ede-e49b-4816-b6e3-cab169e222b4",
+    "sourceTweetId": "ad-explee-01",
+    "originalText": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "content": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link.",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@vovudebosh"
+    },
+    "createdAt": "2026-11-19T17:08:43.758Z",
+    "updatedAt": "2026-11-19T17:08:43.758Z"
+  },
+  {
+    "id": "47e6a067-4392-43ed-8607-05d4f9642446",
+    "sourceTweetId": "ad-explee-02",
+    "originalText": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "content": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@lhoffmann_dev"
+    },
+    "createdAt": "2026-11-19T17:08:43.759Z",
+    "updatedAt": "2026-11-19T17:08:43.759Z"
+  },
+  {
+    "id": "b612a353-d25e-4fcb-afc2-6d1efdf975b5",
+    "sourceTweetId": "2123122026932007233",
+    "originalText": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+    "content": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.\n\nA huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.\n\nKey takeaways:\n• Simplicity > Complexity\n• Business value > Code quantity\n\nWhat is your take on this?",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "KEEP",
+      "scores": {
+        "value": 9,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8.3,
+      "coreIdea": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in unde",
+      "domain": "OTHER",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 8,
+      "compositeScore": 70,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@paulg",
+      "aiImprovised": true,
+      "hook": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+      "takeaways": [
+        "Focus on business value",
+        "Keep code footprint minimal"
+      ],
+      "suggestedHashtags": [
+        "#SoftwareEngineering",
+        "#TechLeadership",
+        "#Programming"
+      ]
+    },
+    "createdAt": "2026-11-19T17:09:36.978Z",
+    "updatedAt": "2026-11-19T17:09:40.503Z",
+    "error": "{\"message\":\"com.linkedin.content.common.exception.BadRequestResponseException: Content is a duplicate of urn:li:share:7529229417299177472\",\"status\":422}",
+    "scheduledAt": "2026-11-19T13:48:46.000Z"
+  },
+  {
+    "id": "5faf0e4f-5728-4a62-bee4-81ca18c70af0",
+    "sourceTweetId": "2123299792923042078",
+    "originalText": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "content": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "KEEP",
+      "scores": {
+        "value": 9,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8.3,
+      "coreIdea": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200",
+      "domain": "BUSINESS",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 8,
+      "compositeScore": 70,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@Miracle_NNnn"
+    },
+    "createdAt": "2026-11-19T17:09:36.982Z",
+    "updatedAt": "2026-11-19T17:09:36.982Z"
+  },
+  {
+    "id": "d3112a4f-b01a-4fc7-b44c-cfead9600ae4",
+    "sourceTweetId": "2123438391090147775",
+    "originalText": "Work backwards from science fiction. We can build anything now",
+    "content": "Work backwards from science fiction. We can build anything now",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VISION_MOTIVATION",
+      "decision": "KEEP",
+      "scores": {
+        "value": 8,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8,
+      "coreIdea": "Work backwards from science fiction. We can build anything now",
+      "domain": "OTHER",
+      "postType": "VISION_MOTIVATION",
+      "qualityScore": 8,
+      "compositeScore": 63,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@rauchg"
+    },
+    "createdAt": "2026-11-19T17:09:36.984Z",
+    "updatedAt": "2026-11-19T17:09:36.984Z"
+  },
+  {
+    "id": "2fb50a20-1735-4d53-a06b-a4e6a306e7e1",
+    "sourceTweetId": "2123099714186850431",
+    "originalText": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "content": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VIDEO_CLIP",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 3,
+        "originality": 2,
+        "adaptability": 2
+      },
+      "averageScore": 0,
+      "coreIdea": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+      "domain": "OTHER",
+      "postType": "VIDEO_CLIP",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@andywalkerhq"
+    },
+    "createdAt": "2026-11-19T17:09:36.985Z",
+    "updatedAt": "2026-11-19T17:09:36.985Z"
+  },
+  {
+    "id": "d633cdec-0201-4ff2-ae3a-6f23ecd6a32b",
+    "sourceTweetId": "2123450524796399816",
+    "originalText": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "content": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "HUMOR_MEME",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 1,
+        "originality": 1,
+        "adaptability": 1
+      },
+      "averageScore": 0,
+      "coreIdea": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can stil",
+      "domain": "OTHER",
+      "postType": "HUMOR_MEME",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@aproko_units"
+    },
+    "createdAt": "2026-11-19T17:09:36.986Z",
+    "updatedAt": "2026-11-19T17:09:36.986Z"
+  },
+  {
+    "id": "ca4acc25-afd2-4cc0-a8f0-b8dc9a8f0106",
+    "sourceTweetId": "ad-explee-01",
+    "originalText": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "content": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link.",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@vovudebosh"
+    },
+    "createdAt": "2026-11-19T17:09:36.987Z",
+    "updatedAt": "2026-11-19T17:09:36.987Z"
+  },
+  {
+    "id": "3418b9d9-4b21-4aaf-a359-9e705ae26eaf",
+    "sourceTweetId": "ad-explee-02",
+    "originalText": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "content": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@lhoffmann_dev"
+    },
+    "createdAt": "2026-11-19T17:09:36.988Z",
+    "updatedAt": "2026-11-19T17:09:36.988Z"
+  },
+  {
+    "id": "f34c0329-a1f2-448e-91cb-2ac3166f28a6",
+    "sourceTweetId": "swe-101",
+    "originalText": "Database indexing deep dive: Why B-Tree composite index column ordering matters for range queries and how covering indexes eliminate table lookups completely.",
+    "content": "Database indexing deep dive: Why B-Tree composite index column ordering matters for range queries and how covering indexes eliminate table lookups completely.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "KNOWLEDGE_VALUE",
+      "decision": "KEEP",
+      "scores": {
+        "value": 7,
+        "originality": 7,
+        "adaptability": 7
+      },
+      "averageScore": 7,
+      "coreIdea": "Database indexing deep dive: Why B-Tree composite index column ordering matters for range queries an",
+      "domain": "SOFTWARE_ENGINEERING",
+      "postType": "KNOWLEDGE_VALUE",
+      "qualityScore": 7,
+      "compositeScore": 67,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@backend_architect"
+    },
+    "createdAt": "2026-11-19T17:57:46.460Z",
+    "updatedAt": "2026-11-19T17:57:46.462Z"
+  },
+  {
+    "id": "1a37ebc8-7292-4b79-9ebc-c974c1c4de10",
+    "sourceTweetId": "ai-102",
+    "originalText": "LLM inference latency optimization: Using speculative decoding and KV cache quantization reduces time-to-first-token by 60% without perceptible loss in generation quality.",
+    "content": "LLM inference latency optimization: Using speculative decoding and KV cache quantization reduces time-to-first-token by 60% without perceptible loss in generation quality.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "KNOWLEDGE_VALUE",
+      "decision": "KEEP",
+      "scores": {
+        "value": 7,
+        "originality": 7,
+        "adaptability": 7
+      },
+      "averageScore": 7,
+      "coreIdea": "LLM inference latency optimization: Using speculative decoding and KV cache quantization reduces tim",
+      "domain": "AI",
+      "postType": "KNOWLEDGE_VALUE",
+      "qualityScore": 7,
+      "compositeScore": 67,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": true,
+      "isDuplicate": false,
+      "author": "@ai_engineer"
+    },
+    "createdAt": "2026-11-19T17:57:46.464Z",
+    "updatedAt": "2026-11-19T17:57:46.464Z"
+  },
+  {
+    "id": "2c58e45f-e729-4394-a022-7415577d0514",
+    "sourceTweetId": "2123438391090147775",
+    "originalText": "Work backwards from science fiction. We can build anything now",
+    "content": "Work backwards from science fiction. We can build anything now",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VISION_MOTIVATION",
+      "decision": "KEEP",
+      "scores": {
+        "value": 8,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8,
+      "coreIdea": "Work backwards from science fiction. We can build anything now",
+      "domain": "SOFTWARE_ENGINEERING",
+      "postType": "VISION_MOTIVATION",
+      "qualityScore": 8,
+      "compositeScore": 63,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@rauchg"
+    },
+    "createdAt": "2026-11-19T17:57:46.467Z",
+    "updatedAt": "2026-11-19T17:57:46.467Z"
+  },
+  {
+    "id": "244d2b27-5dc6-499d-8070-16bde4a338be",
+    "sourceTweetId": "2123122026932007233",
+    "originalText": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+    "content": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in underpriced assets, finding cool places that aren't deluged with tourists — they're all variants of the same thing. Whenever I find myself in a crowd, I feel something is wrong.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "A huge percentage of my life is spent avoiding crowds. Avoiding fashionable ideas, investing in unde",
+      "domain": "OTHER",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@paulg"
+    },
+    "createdAt": "2026-11-19T17:57:46.469Z",
+    "updatedAt": "2026-11-19T17:57:46.469Z"
+  },
+  {
+    "id": "b1697149-4f1b-4d32-b62a-6b55a90db0c1",
+    "sourceTweetId": "2123299792923042078",
+    "originalText": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+    "content": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business\n\nI found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business\n\nKey takeaways:\n• Simplicity > Complexity\n• Business value > Code quantity\n\nWhat is your take on this?",
+    "media": [],
+    "status": "SCHEDULED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "CONTRARIAN_INSIGHT",
+      "decision": "KEEP",
+      "scores": {
+        "value": 9,
+        "originality": 8,
+        "adaptability": 8
+      },
+      "averageScore": 8.3,
+      "coreIdea": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200",
+      "domain": "SOFTWARE_ENGINEERING",
+      "postType": "CONTRARIAN_INSIGHT",
+      "qualityScore": 8,
+      "compositeScore": 70,
+      "viralityPotential": "HIGH",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@Miracle_NNnn",
+      "aiImprovised": true,
+      "hook": "I found something wild in TrustMRR One founder has generated over $19M in revenue with less than 200 followers on X Meanwhile, thousands of founders are chasing followers, impressions and virality Maybe the goal was never to become popular Maybe it was to build a business",
+      "takeaways": [
+        "Focus on business value",
+        "Keep code footprint minimal"
+      ],
+      "suggestedHashtags": [
+        "#SoftwareEngineering",
+        "#TechLeadership",
+        "#Programming"
+      ]
+    },
+    "createdAt": "2026-11-19T17:57:46.470Z",
+    "updatedAt": "2026-11-19T17:57:50.701Z",
+    "linkedinPostUrn": "urn:li:share:7529241538653155328",
+    "publishedAt": "2026-11-19T17:57:49.900Z",
+    "scheduledAt": "2026-11-19T13:12:17.000Z"
+  },
+  {
+    "id": "28447a37-cee6-42e3-b1dc-4f3914c8d55b",
+    "sourceTweetId": "2123099714186850431",
+    "originalText": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "content": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "VIDEO_CLIP",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "Alex Hormozi on how to spot an A-player in the first two weeks:\n0:01 / 0:52",
+      "domain": "OTHER",
+      "postType": "VIDEO_CLIP",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@andywalkerhq"
+    },
+    "createdAt": "2026-11-19T17:57:46.472Z",
+    "updatedAt": "2026-11-19T17:57:46.472Z"
+  },
+  {
+    "id": "d6935f4a-9057-492d-a3ed-3cb037136730",
+    "sourceTweetId": "2123450524796399816",
+    "originalText": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "content": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can still see many of us online.",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "HUMOR_MEME",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "Omo be like say na only Nigerians no get money to buy This ps5 with GTA 6 package inside, I can stil",
+      "domain": "OTHER",
+      "postType": "HUMOR_MEME",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@aproko_units"
+    },
+    "createdAt": "2026-11-19T17:57:46.473Z",
+    "updatedAt": "2026-11-19T17:57:46.473Z"
+  },
+  {
+    "id": "d90cac56-6500-4163-962d-c4a85ab903dc",
+    "sourceTweetId": "ad-explee-01",
+    "originalText": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "content": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link. it found companies that need my product, wrote each of them a personal email, and helped me book calls. $30 free 👇 https://t.co/anRQiznifv?twclid=22atepbkrw6iinccr76d4477g5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "my ads cost too much for how little they brought in. so i tried this: i gave explee my website link.",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@vovudebosh"
+    },
+    "createdAt": "2026-11-19T17:57:46.474Z",
+    "updatedAt": "2026-11-19T17:57:46.474Z"
+  },
+  {
+    "id": "13a76753-4cba-424a-8d24-ae56a59cdcdc",
+    "sourceTweetId": "ad-explee-02",
+    "originalText": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "content": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales. drop your link: this ai finds your buyers, writes the emails, books the calls. $30 free credits 👇 https://explee.com/auto-gtm/x/tw-ag997-c1761?twclid=2d9fonz9oanjddf0s1cl50atk5",
+    "media": [],
+    "status": "PENDING_REVIEW",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "category": "PROMO_AD",
+      "decision": "DISCARD",
+      "scores": {
+        "value": 0,
+        "originality": 0,
+        "adaptability": 0
+      },
+      "averageScore": 0,
+      "coreIdea": "Ad\nno clients? 6 months building, still $0 revenue. the problem was never the product — it was sales",
+      "domain": "AI",
+      "postType": "PROMO_AD",
+      "qualityScore": 5,
+      "compositeScore": 0,
+      "viralityPotential": "MEDIUM",
+      "isDirectPostEligible": false,
+      "isDuplicate": false,
+      "author": "@lhoffmann_dev"
+    },
+    "createdAt": "2026-11-19T17:57:46.475Z",
+    "updatedAt": "2026-11-19T17:57:46.475Z"
+  },
+  {
+    "id": "085d2062-dc3e-47d1-8047-793e58475466",
+    "sourceTweetId": "2123058028689625501",
+    "originalText": "Man, we really miss MSD a lot",
+    "content": "Man, we really miss MSD a lot",
+    "media": [
+      {
+        "id": "6eac0f72-c911-4597-9434-5398be011465",
+        "type": "VIDEO",
+        "title": "Video",
+        "s3Key": "pending/085d2062-dc3e-47d1-8047-793e58475466/0aea8a04-4449-4453-8691-34df26e261c3.mp4",
+        "mimeType": "video/mp4",
+        "url": "https://video.twimg.com/amplify_video/2123057970573418496/vid/avc1/1280x692/ZqmpsXgzcV16UG2N.mp4?tag=29"
+      }
+    ],
+    "status": "PUBLISHED",
+    "platform": "LINKEDIN",
+    "metadata": {
+      "skippedAiFilter": true,
+      "author": "@PSTtwtz",
+      "source": "chrome_extension",
+      "extractedAt": "2026-11-19T18:24:09.932Z"
+    },
+    "createdAt": "2026-11-19T18:24:09.934Z",
+    "updatedAt": "2026-11-19T18:24:40.747Z",
+    "linkedinPostUrn": "urn:li:ugcPost:7529248289267879936",
+    "publishedAt": "2026-11-19T18:24:39.605Z"
+  }
+]
