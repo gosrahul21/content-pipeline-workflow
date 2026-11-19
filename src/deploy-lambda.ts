@@ -33,15 +33,15 @@ async function deploy() {
   console.log(`Region: ${REGION} | Role: ${ROLE_ARN}`);
   console.log('===============================================================\n');
 
-  // Step 1: Bundle with esbuild
-  console.log('1. Bundling backend with esbuild...');
+  // Step 1: Bundle with esbuild (CommonJS format avoids ESM dynamic require issues)
+  console.log('1. Bundling backend with esbuild (CommonJS)...');
   const buildDir = path.resolve('build');
   if (!fs.existsSync(buildDir)) {
     fs.mkdirSync(buildDir, { recursive: true });
   }
 
   execSync(
-    'npx esbuild src/lambda.ts --bundle --platform=node --target=node20 --format=esm --outfile=build/lambda.mjs "--external:@aws-sdk/*"',
+    'npx esbuild src/lambda.ts --bundle --platform=node --target=node20 --format=cjs --outfile=build/lambda.cjs "--external:@aws-sdk/*"',
     { stdio: 'inherit' }
   );
 
@@ -51,7 +51,7 @@ async function deploy() {
   if (fs.existsSync(zipPath)) {
     fs.unlinkSync(zipPath);
   }
-  execSync('zip -j build/lambda.zip build/lambda.mjs', { stdio: 'inherit' });
+  execSync('zip -j build/lambda.zip build/lambda.cjs', { stdio: 'inherit' });
 
   const zipBuffer = fs.readFileSync(zipPath);
   console.log(`Zip archive size: ${(zipBuffer.length / 1024).toFixed(1)} KB`);

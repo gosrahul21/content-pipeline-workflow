@@ -62,6 +62,10 @@ async function startWorker() {
           } catch (err: any) {
             console.error(`[Worker] Error processing message ${msg.MessageId}:`, err.message);
           }
+
+          // 5-second pacing delay between SQS messages to stay under 15 RPM
+          console.log('[Worker] ⏳ Waiting 5 seconds before processing next message...');
+          await new Promise((res) => setTimeout(res, 5000));
         }
       }
     } catch (err: any) {

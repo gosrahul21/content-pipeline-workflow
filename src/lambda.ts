@@ -62,10 +62,12 @@ export const schedulerHandler = async (event: any, context?: any) => {
  * Routes through AI Filtration & Categorization, Telegram supervision, and Post Service.
  */
 export const sqsHandler = async (event: { Records: Array<{ body: string; messageId: string }> }) => {
-  console.log(`[Lambda:sqsHandler] Processing ${event.Records?.length || 0} SQS record(s)...`);
+  const records = event.Records || [];
+  console.log(`[Lambda:sqsHandler] Processing ${records.length} SQS record(s)...`);
   const outcomes = [];
 
-  for (const record of event.Records || []) {
+  for (let i = 0; i < records.length; i++) {
+    const record = records[i];
     try {
       const payload = JSON.parse(record.body);
       console.log(`[Lambda:sqsHandler] Processing message ${record.messageId}:`, payload.content?.substring(0, 60));
@@ -75,11 +77,16 @@ export const sqsHandler = async (event: { Records: Array<{ body: string; message
       console.error(`[Lambda:sqsHandler] Failed to process message ${record.messageId}:`, err);
       throw err; // Trigger SQS retry / DLQ
     }
+
+    if (i < records.length - 1) {
+      console.log(`[Lambda:sqsHandler] ⏳ 5-second pacing delay before processing next record...`);
+      await new Promise((r) => setTimeout(r, 5000));
+    }
   }
 
   return {
     statusCode: 200,
-    processedCount: event.Records?.length || 0,
+    processedCount: records.length,
     outcomes,
   };
 };

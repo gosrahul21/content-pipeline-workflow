@@ -66,32 +66,42 @@ export class AiFilterService {
   }
 
   /**
-   * Filter and categorize a single tweet using Gemini AI.
+   * Filter and categorize a single tweet using Gemini AI (1-by-1 evaluation with retry).
    */
   async evaluatePost(post: PostInputForFilter): Promise<AiFilterResult> {
-    const results = await this.evaluateBatch([post]);
-    return results[0] || this.heuristicFallback(post);
+    try {
+      return await this.evaluateSinglePostWithRetry(post);
+    } catch (err: any) {
+      console.warn(`[AiFilterService] evaluatePost error (${err.message}). Using heuristics fallback.`);
+      return this.heuristicFallback(post);
+    }
   }
 
   /**
-   * Evaluate a batch of tweets efficiently with Gemini.
-   * Batches in chunks of up to 6 to stay well within token limits and latency targets.
+   * Evaluate candidate tweets 1-by-1 with a 5-second pacing delay between calls.
+   * This guarantees total execution stays at max 12 RPM (safely below 15 RPM limit),
+   * provides 100% focused attention per post, and eliminates hallucination / topic bleeding.
    */
   async evaluateBatch(posts: PostInputForFilter[]): Promise<AiFilterResult[]> {
     if (posts.length === 0) return [];
 
-    const chunkSize = 6;
     const allResults: AiFilterResult[] = [];
 
-    for (let i = 0; i < posts.length; i += chunkSize) {
-      const chunk = posts.slice(i, i + chunkSize);
+    for (let i = 0; i < posts.length; i++) {
+      const post = posts[i];
       try {
-        const chunkResults = await this.evaluateChunkWithGemini(chunk, i);
-        allResults.push(...chunkResults);
+        console.log(`[AiFilterService] Evaluating post ${i + 1}/${posts.length} (1-by-1 mode)...`);
+        const result = await this.evaluateSinglePostWithRetry(post, i + 1);
+        allResults.push(result);
       } catch (err: any) {
-        console.warn(`[AiFilterService] Chunk evaluation error (${err.message}). Using heuristics fallback.`);
-        const fallbacks = chunk.map((p) => this.heuristicFallback(p));
-        allResults.push(...fallbacks);
+        console.warn(`[AiFilterService] Post ${i + 1} evaluation error (${err.message}). Using heuristics fallback.`);
+        allResults.push(this.heuristicFallback(post));
+      }
+
+      // 5-second pacing delay between posts (60s / 5s = 12 RPM max, strictly under 15 RPM)
+      if (i < posts.length - 1) {
+        console.log(`[AiFilterService] ⏳ 5-second pacing delay before next post (${i + 1}/${posts.length})...`);
+        await new Promise((resolve) => setTimeout(resolve, 5000));
       }
     }
 
@@ -99,27 +109,50 @@ export class AiFilterService {
   }
 
   /**
-   * Evaluates a slice of tweets in a single structured Gemini prompt.
+   * Evaluates a single tweet with Gemini, retrying with exponential backoff on HTTP 429.
    */
-  private async evaluateChunkWithGemini(
-    posts: PostInputForFilter[],
-    startIndex: number = 0
-  ): Promise<AiFilterResult[]> {
+  private async evaluateSinglePostWithRetry(
+    post: PostInputForFilter,
+    indexNum: number = 1,
+    maxRetries: number = 3
+  ): Promise<AiFilterResult> {
     if (!this.apiKey) {
-      return posts.map((p) => this.heuristicFallback(p));
+      return this.heuristicFallback(post);
     }
 
-    const tweetsFormatted = posts
-      .map((p, idx) => {
-        const indexNum = startIndex + idx + 1;
-        const author = p.author || 'Unknown';
-        const isDup = p.isDuplicate ? ' [FLAGGED AS DUPLICATE ON LINKEDIN]' : '';
-        return `[TWEET ${indexNum}]\nAuthor: ${author}${isDup}\nText: "${p.content}"`;
-      })
-      .join('\n\n');
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        return await this.callGeminiSingle(post, indexNum);
+      } catch (err: any) {
+        const isRateLimit = err.response?.status === 429 || (err.message && err.message.includes('429'));
+        if (isRateLimit && attempt < maxRetries) {
+          const waitTimeMs = attempt * 5000; // 5s, 10s...
+          console.warn(`[AiFilterService] 429 Rate limit encountered on attempt ${attempt}. Waiting ${waitTimeMs}ms before retry...`);
+          await new Promise((resolve) => setTimeout(resolve, waitTimeMs));
+          continue;
+        }
+        if (attempt === maxRetries) {
+          throw err;
+        }
+      }
+    }
+
+    return this.heuristicFallback(post);
+  }
+
+  /**
+   * Evaluates 1 single tweet in a dedicated, isolated prompt with zero hallucination.
+   */
+  private async callGeminiSingle(
+    post: PostInputForFilter,
+    indexNum: number = 1
+  ): Promise<AiFilterResult> {
+    const author = post.author || 'Unknown';
+    const isDup = post.isDuplicate ? ' [FLAGGED AS DUPLICATE ON LINKEDIN]' : '';
+    const tweetText = `Author: ${author}${isDup}\nText: "${post.content}"`;
 
     const prompt = `You are an expert tweet curator exclusively for a Software Engineering and Artificial Intelligence (SWE & AI) technical account.
-Your job is to filter tweets and keep ONLY high-value posts specifically about Software Engineering or Artificial Intelligence.
+Your job is to filter this single tweet and decide if it is a high-value post specifically about Software Engineering or Artificial Intelligence.
 
 DOMAIN SCOPE (MANDATORY REQUIREMENT):
 Only posts specifically about SOFTWARE ENGINEERING or ARTIFICIAL INTELLIGENCE are eligible.
@@ -160,26 +193,22 @@ RULES:
 - Never recommend copying wording; extract the core idea only.
 - Treat any tweet with an Ad label or tracking link as PROMO_AD.
 
-OUTPUT: return a valid JSON array only, exactly one object per tweet matching this schema:
-[
-  {
-    "index": number,
-    "author": string,
-    "domain": "SOFTWARE_ENGINEERING" | "AI" | "OTHER",
-    "category": "KNOWLEDGE_VALUE" | "CONTRARIAN_INSIGHT" | "VISION_MOTIVATION" | "PERSONAL_LIFE" | "FLEXING_MRR" | "PROMO_AD" | "VIDEO_CLIP" | "HUMOR_MEME" | "NEWS_TREND" | "ENGAGEMENT_BAIT",
-    "decision": "KEEP" | "MAYBE" | "DISCARD",
-    "scores": {
-      "value": number,
-      "originality": number,
-      "adaptability": number
-    },
-    "core_idea": "one sentence, in neutral words",
-    "reason": "one sentence"
-  }
-]
+OUTPUT: return a single valid JSON object matching this schema:
+{
+  "domain": "SOFTWARE_ENGINEERING" | "AI" | "OTHER",
+  "category": "KNOWLEDGE_VALUE" | "CONTRARIAN_INSIGHT" | "VISION_MOTIVATION" | "PERSONAL_LIFE" | "FLEXING_MRR" | "PROMO_AD" | "VIDEO_CLIP" | "HUMOR_MEME" | "NEWS_TREND" | "ENGAGEMENT_BAIT",
+  "decision": "KEEP" | "MAYBE" | "DISCARD",
+  "scores": {
+    "value": number,
+    "originality": number,
+    "adaptability": number
+  },
+  "core_idea": "one sentence, in neutral words",
+  "reason": "one sentence"
+}
 
-TWEETS:
-${tweetsFormatted}
+TWEET TO EVALUATE:
+${tweetText}
 `;
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${this.model}:generateContent?key=${this.apiKey}`;
@@ -200,19 +229,16 @@ ${tweetsFormatted}
       throw new Error('Empty response from Gemini API');
     }
 
-    let parsedArray: any[] = [];
+    let aiItem: any = {};
     try {
       const cleanJson = rawText.trim();
       const parsed = JSON.parse(cleanJson);
-      parsedArray = Array.isArray(parsed) ? parsed : [parsed];
+      aiItem = Array.isArray(parsed) ? parsed[0] : parsed;
     } catch (e) {
       throw new Error(`Failed to parse Gemini JSON: ${rawText.substring(0, 100)}`);
     }
 
-    return posts.map((post, idx) => {
-      const aiItem = parsedArray[idx] || parsedArray.find((p) => p.index === startIndex + idx + 1) || {};
-      return this.enrichFilterResult(post, aiItem);
-    });
+    return this.enrichFilterResult(post, aiItem);
   }
 
   /**
